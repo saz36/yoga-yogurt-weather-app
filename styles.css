@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.l-purple {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+@media (max-width: 576px) {
+  .weather-app-pic,
+  .yoga-pic,
+  .yogurt-pic {
+    background-color: aqua;
+  }
+}
