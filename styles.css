@@ -11,6 +11,17 @@
   .weather-app-pic,
   .yoga-pic,
   .yogurt-pic {
-    background-color: aqua;
+    display: none;
   }
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 576px) {
+  p,
+  h3 {
+    text-align: center;
+  }
+}
+
