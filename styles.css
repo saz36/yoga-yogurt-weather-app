@@ -1,6 +1,7 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
+
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
@@ -11,7 +12,7 @@ body {
   border: 1px solid var(--primary-color);
 }
 .about-paragraphs {
-  background-color: var(--secondary-color);
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   font-size: 18px;
   text-align: center;
   margin: 30px;
@@ -40,7 +41,26 @@ body {
   .homepage-link {
     margin: 10px;
   }
+  .weather-button,
+  .yogurt-button,
+  .yoga-button {
+    margin: 30px;
+  }
+  .yogurt-about,
+  .weather-about,
+  .yoga-about {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 }
+.weather-button,
+.yogurt-button,
+.yoga-button {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
 .about-heading {
   margin: 25px auto;
   text-align: center;
