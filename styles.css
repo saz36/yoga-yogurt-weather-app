@@ -3,12 +3,19 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+body {
+  margin: 58px 25px 20px;
+}
 .l-purple {
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
 .about-paragraphs {
   background-color: var(--secondary-color);
+  font-size: 18px;
+  text-align: center;
+  margin: 30px;
+  padding: 25px 50px;
 }
 
 @media (max-width: 576px) {
@@ -22,7 +29,12 @@
   h3,
   .about-paragraphs {
     text-align: center;
-    font-size: 23px;
+    font-size: 22px;
+    padding: 1px;
+    margin: 10px 10px;
+  }
+  .homepage-link {
+    margin: 10px;
   }
 }
 img {
@@ -31,4 +43,8 @@ img {
 }
 h4 {
   font-size: 23px;
+}
+.homepage-link {
+  margin-top: 80px;
+  margin-left: 30px;
 }
