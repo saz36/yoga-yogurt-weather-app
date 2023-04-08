@@ -33,9 +33,18 @@ body {
     padding: 1px;
     margin: 10px 10px;
   }
+  .about-heading {
+    font-size: 20px;
+    text-align: center;
+  }
   .homepage-link {
     margin: 10px;
   }
+}
+.about-heading {
+  margin: 25px auto;
+  text-align: center;
+  font-size: 45px;
 }
 img {
   max-width: 100%;
